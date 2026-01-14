@@ -9,6 +9,7 @@ public class Fibonacci
         System.out.println("The " + number + "th term of the Fibonacci sequence is " + result + ".");
     }
 
+    // @param n of type integer is added to the previous two numbers behind of it and the @return is the result of that operation
     public static int fibonacci(int number) 
     {
         if (number <= 1) 
